@@ -1,0 +1,110 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav {
+  background-color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight:bold;
+  color: #2c4964;
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 20px 25px 5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.site-title {
+  font-size: 2rem;
+  padding-left: 20px;
+
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.left-container{
+  max-width: max-content;
+  max-height: max-content;
+  display: flex;
+  gap: 2rem;
+
+}
+.signup-button,.login-button {
+  background-color: #1a80db;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  height:50px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  
+
+}
+
+/* HERO.JSX */
+
+.hero-container{
+  color: #2c4964;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.hero-container #hero-1{
+  font-size: 50px;
+  font-weight: 800;
+  padding-top: 100px;
+
+}
+
+.hero-container #hero-2 {
+  font-size: 30px;
+}
+.hero-login-button{
+  background-color: #1a80db;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 55px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+.login-text{
+  color: black;
+}

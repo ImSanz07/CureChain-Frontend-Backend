@@ -1,0 +1,19 @@
+{
+  "name": "MedicSync",
+  "version": "1.0.0",
+  "description": "Decentralized platform for patient and doctor to connect securely",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "ipfs-http-client": "^60.0.1",
+    "lite-server": "^2.6.1",
+    "solc": "^0.8.21",
+    "truffle": "^5.11.2",
+    "web3": "^4.0.3"
+  },
+  "author": "TE Comps A",
+  "license": "9566"
+}
